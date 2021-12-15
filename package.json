@@ -9,7 +9,7 @@
     "seed": "knex seed:run",
     "test": "cross-env NODE_ENV=testing jest --verbose --runInBand",
     "resetdb": "npm run rollback && npm run migrate && npm run seed",
-    "resetdbhard": "rm -f database/*.db3 && npm run migrate && npm run seed",
+    "resetdbhard": "rm -f database/*.db3 && npm run migrate && npm run seed"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
